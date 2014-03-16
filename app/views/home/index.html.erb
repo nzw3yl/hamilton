@@ -1,6 +1,65 @@
-<h3>Home</h3>
 <% if !current_user.nil? and current_user.admin? %>
   <% @users.each do |user| %>
     <p>User: <%=link_to user.email, user %> Role: <%= user.role unless user.role.nil? %></p>
   <% end %>
+<% else %>
+  <div id="main">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+	          <h2> Is it hot in here?<h2><br/>
+              <h4>Understand and eliminate the obstacles to more profitable business relationships</h4>
+	      </div><!-- /.md-8 -->
+          <div class="col-md-3">
+	          <div class="authform">
+			  <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :role => 'form'}) do |f| %>
+			    <%= devise_error_messages! %>
+			    <div class="form-group">
+			      <%= f.label :email, :class => "sr-only" %>
+			      <%= f.email_field :email, :autofocus => true, class: 'form-control', :placeholder => "user@example.com" %>
+			    </div>
+			    <div class="form-group">
+			      <%= f.label :password, :class => "sr-only" %>
+			      <%= f.password_field :password, class: 'form-control', :placeholder => "*************" %>
+			    </div>
+			      <%= f.submit 'Sign in', :class => 'button right' %>
+			      <% if devise_mapping.rememberable? -%>
+			        <div class="checkbox">
+			          <%= f.check_box :remember_me %> <%= f.label :remember_me %>
+			        </div>
+			      <% end -%>
+			      <%- if devise_mapping.recoverable? %>
+			        <%= link_to "Forgot password?", new_password_path(resource_name), class: 'right' %>
+			      <% end -%>
+			  <% end %>
+			</div>
+              <div class="authform">
+			  <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :role => 'form'}) do |f| %>
+			    <h3>New Here? <small>Sign Up</small></h3>
+			    <%= devise_error_messages! %>
+			    <div class="form-group">
+			      <%= f.label :name, :class => "sr-only" %>
+			      <%= f.text_field :name, :autofocus => true, class: 'form-control', :placeholder => "Full Name" %>
+			    </div>
+			    <div class="form-group">
+			      <%= f.label :email, :class => "sr-only" %>
+			      <%= f.email_field :email, class: 'form-control', :placeholder => "user@example.com" %>
+			    </div>
+			    <div class="form-group">
+			      <%= f.label :password, :class => "sr-only"%>
+			      <%= f.password_field :password, class: 'form-control', :placeholder => "Password"  %>
+			    </div>
+			    <div class="form-group">
+			      <%= f.label :password_confirmation, :class => "sr-only" %>
+			      <%= f.password_field :password_confirmation, class: 'form-control', :placeholder => "Password Confirmation" %>
+			    </div>
+			     <%= f.submit 'Sign up', :class => 'button right' %>
+			  <% end %>
+			</div>
+          </div><!-- /.mid-3 -->
+          <div class="col-md-1">
+          </div><!-- /.mid-1 -->
+	    </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+  </div><!-- /.main-->
 <% end %>
