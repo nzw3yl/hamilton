@@ -1,0 +1,21 @@
+
+es:
+  hello: "Hello world"
+  button:
+      signin: "Iniciar sesión"
+      signup: "Regístrate"
+  splash_lead: "ES Lead Placeholder"
+  splash_sub: "ES Sub Placeholder"
+  home: "Inicio"
+  forgot_password: "¿Olvidaste tu contraseña?"
+  remember_me: "Recordar mis datos"
+  new_here: "¿Eres nuevo?"
+  activerecord:
+      models:
+        user: "Usuario"
+      attributes:
+        user:
+          name: "Nombre completo"
+          email: "Correo electrónico"
+          password: "Contraseña"
+          password_confirmation: "Confirmación de contraseña"

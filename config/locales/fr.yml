@@ -1,0 +1,20 @@
+fr:
+  hello: "Hello world"
+  button:
+      signin: "Se connecter"
+      signup: "Inscrivez-vous"
+  splash_lead: "FR Lead Placeholder"
+  splash_sub: "FR Sub Placeholder"
+  home: "Page d'accueil"
+  forgot_password: "Mot de passe oublié ?"
+  remember_me: "Se souvenir de moi"
+  new_here: "Nouveau sur ici ?"
+  activerecord:
+      models:
+        user: "Usuario"
+      attributes:
+        user:
+          name: "Nom complet"
+          email: "Email"
+          password: "Mot de passe"
+          password_confirmation: "Confirmer le mot de passe"

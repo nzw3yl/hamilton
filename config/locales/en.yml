@@ -21,3 +21,21 @@
 
 en:
   hello: "Hello world"
+  button:
+      signin: "Sign In"
+      signup: "Sign up"
+  splash_lead: "EN Lead Placeholder"
+  splash_sub: "EN Sub Placeholder"
+  home: "Home"
+  forgot_password: "Forgot Password?"
+  remember_me: "Remember Me"
+  new_here: "New Here?"
+  activerecord:
+      models:
+        user: "User"
+      attributes:
+        user:
+          name: "Full Name"
+          email: "Email"
+          password: "Password"
+          password_confirmation: "Password Confirmation"
