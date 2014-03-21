@@ -7,14 +7,33 @@ fr:
   splash_sub: "FR Sub Placeholder"
   home: "Page d'accueil"
   forgot_password: "Mot de passe oublié ?"
+  sending_password_reset: "Nous vous enverrons instructions sur la réinitialisation des mots de passe"
+  reset_password: "Réinitialisation du mot de passe"
   remember_me: "Se souvenir de moi"
   new_here: "Nouveau sur ici ?"
+  logout: "Déconnexion"
+  edit: "Modifier"
+  update: "Mise à jour"
   activerecord:
       models:
-        user: "Usuario"
+        user: "Membre"
       attributes:
         user:
           name: "Nom complet"
           email: "Email"
           password: "Mot de passe"
           password_confirmation: "Confirmer le mot de passe"
+      errors:
+        models:
+          user:
+            attributes:
+              name:
+                blank: "ne peut pas être vierge"
+                too_short: "est trop court"
+              email:
+                blank: "ne peut pas être vierge"
+              password:
+                blank: "ne peut pas être vierge"
+                too_short: "est trop court"
+              password_confirmation:
+                confirmation: "ne correspondent pas"

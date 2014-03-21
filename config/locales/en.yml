@@ -27,9 +27,17 @@ en:
   splash_lead: "EN Lead Placeholder"
   splash_sub: "EN Sub Placeholder"
   home: "Home"
+  unchanged_password: "Leave these fields blank if you don't want to change your password."
+  current_password: "You must enter your current password to make changes."
+  current_password_f: "Current Password"
   forgot_password: "Forgot Password?"
+  sending_password_reset: "We'll send password reset instructions"
+  reset_password: "Reset Password"
   remember_me: "Remember Me"
   new_here: "New Here?"
+  logout: "Logout"
+  edit: "Edit"
+  update: "Update"
   activerecord:
       models:
         user: "User"

@@ -7,8 +7,13 @@ de:
   splash_sub: "DE Sub Placeholder"
   home: "Homepage"
   forgot_password: "Passwort vergessen?"
+  sending_password_reset: "Wir senden Ihnen Anweisungen zum Zurücksetzen des Passworts"
+  reset_password: "Passwort zurücksetzen"
   remember_me: "Angemeldet bleiben"
   new_here: "Neu bei ###?"
+  logout: "Abmelden"
+  edit: "Bearbeiten"
+  update: "Update"
   activerecord:
       models:
         user: "Usuario"
@@ -18,3 +23,17 @@ de:
           email: "Email"
           password: "Passwort"
           password_confirmation: "Passwort bestätigen"
+      errors:
+        models:
+          user:
+            attributes:
+              name:
+                blank: "darf nicht leer sein"
+                too_short: "ist zu kurz"
+              email:
+                blank: "darf nicht leer sein"
+              password:
+                blank: "darf nicht leer sein"
+                too_short: "ist zu kurz"
+              password_confirmation:
+                confirmation: "stimmen nicht überein"

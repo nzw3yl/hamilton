@@ -38,6 +38,13 @@ de:
       signed_up_but_unconfirmed: Sie erhalten in wenigen Minuten eine E-Mail mit einem Link für die Bestätigung der Registrierung. Klicken Sie auf den Link um Ihren Account zu aktivieren.
       update_needs_confirmation: Ihre Daten wurden aktualisiert, aber Sie müssen Ihre neue E-Mail-Adresse bestätigen. Sie erhalten in wenigen Minuten eine E-Mail, mir der Sie die Änderung Ihrer E-Mail-Adresse abschließen können.
       updated: Ihre Daten wurden aktualisiert.
+      edit:
+          unchanged_password: "Lassen Sie diese Passwort leer, wenn sie nicht wollen, um Ihr Passwort zu ändern."
+          current_password: "Sie müssen Ihr aktuelles Passwort eingeben, um Änderungen vorzunehmen."
+          current_password_f: "Aktuelles Passwort"
+          cancel_account: "Konto löschen"
+          cancel_message: "Tut uns leid, dass sie gehen"
+          unconfirmed_email: "Derzeit warten Bestätigung für:"
     sessions:
       signed_in: Erfolgreich angemeldet.
       signed_out: Erfolgreich abgemeldet.

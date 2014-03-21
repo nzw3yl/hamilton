@@ -8,8 +8,13 @@ es:
   splash_sub: "ES Sub Placeholder"
   home: "Inicio"
   forgot_password: "¿Olvidaste tu contraseña?"
+  sending_password_reset: "Le enviaremos las instrucciones para restablecer la contraseña"
+  reset_password: "Restablecimiento de la contraseña"
   remember_me: "Recordar mis datos"
   new_here: "¿Eres nuevo?"
+  logout: "Cerrar sesión"
+  edit: "Editar"
+  update: "Actualizar"
   activerecord:
       models:
         user: "Usuario"
@@ -19,3 +24,17 @@ es:
           email: "Correo electrónico"
           password: "Contraseña"
           password_confirmation: "Confirmación de contraseña"
+      errors:
+        models:
+          user:
+            attributes:
+              name:
+                blank: "No se puede dejar en blanco"
+                too_short: "es demasiado corto"
+              email:
+                blank: "No se puede dejar en blanco"
+              password:
+                blank: "No se puede dejar en blanco"
+                too_short: "es demasiado corto"
+              password_confirmation:
+                confirmation: "no coinciden"

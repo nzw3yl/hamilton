@@ -80,3 +80,13 @@ section {
   @extend .btn-primary;
   @extend .btn-xs;
 }
+
+.nav-panel-group {
+  @extend .panel-group;
+  padding-left: 15px;
+}
+
+.main-panel-body {
+  @extend panel-body;
+  padding-left: 15px;
+}

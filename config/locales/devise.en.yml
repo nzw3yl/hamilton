@@ -40,6 +40,13 @@ en:
       signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
       update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
       updated: "You updated your account successfully."
+      edit:
+          unchanged_password: "Leave these fields blank if you do not wish to change your pasword"
+          current_password: "Enter your current password for these changes to take effect"
+          current_password_f: "Current Password"
+          cancel_account: "Cancel Account"
+          cancel_message: "Unhappy? Sorry to see you go."
+          unconfirmed_email: "Currently waiting confirmation for:"
     sessions:
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
