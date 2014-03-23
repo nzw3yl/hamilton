@@ -1,0 +1,67 @@
+<div class="panel panel-default">
+	  <div class="panel-heading">
+	    <h3 class="panel-title"><%= t('most_active') %></h3>
+	  </div>
+	  <div class="panel-body">
+		<div class="row">
+			<div class="col-sm-8">
+			  <span class="input-group">
+				<span class="input-group-addon">#</span>
+			    <input type="text" class="form-control" placeholder="<%= t('enter_tag') %>">
+			    <span class="input-group-btn">
+			      <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+			    </span>
+			  </span><!-- /input-group -->
+			</div>
+			<div class="col-sm-4">
+		      <span class="btn-group pull-right" data-toggle="buttons">
+			    <label class="btn btn-default">
+			      <input type="radio" name="options" id="option1"><span class="glyphicon glyphicon-user"></span>
+			    </label>
+			    <label class="btn btn-default active">
+			      <input type="radio" name="options" id="option2" checked=""><span class="glyphicon glyphicon-globe"></span>
+			    </label>
+			  </span> 
+			</div>
+		</div>		
+	  </div>
+	  <table class="table table-condensed">
+	    <thead>
+		  <th>Tag</th>
+		  <th>(#)</th>
+		  <th><span class="glyphicon glyphicon-comment"></span></th>
+		</thead>
+		<tbody>
+			<tr>
+			  <td><span class="label label-primary">F</span> #lorem_ipsum</td>
+			  <td>123</td>
+			  <td><button type="button" class="btn btn-primary btn-xs">&nbsp;<span class="glyphicon glyphicon-comment"></span>&nbsp;</button></td>
+			</tr>
+			<tr>
+			  <td><span class="label label-info"><span class="glyphicon glyphicon-heart-empty"></span></span> #pennyroyal_tea</td>
+			  <td>118</td>
+			  <td><button type="button" class="btn btn-primary btn-xs">&nbsp;<span class="glyphicon glyphicon-comment"></span>&nbsp;</button></td>
+			</tr>
+			<tr>
+			  <td><span class="label label-success"><span class="glyphicon glyphicon-certificate"></span></span> #worcestershire_sauce</td>
+			  <td>96</td>
+			  <td><button type="button" class="btn btn-primary btn-xs">&nbsp;<span class="glyphicon glyphicon-comment"></span>&nbsp;</button></td>
+			</tr>
+			<tr>
+			  <td><span class="label label-success"><span class="glyphicon glyphicon-certificate"></span></span> #paddington_bear</td>
+			  <td>95</td>
+			  <td><button type="button" class="btn btn-primary btn-xs">&nbsp;<span class="glyphicon glyphicon-comment"></span>&nbsp;</button></td>
+			</tr>
+			<tr>
+			  <td><span class="label label-success"><span class="glyphicon glyphicon-certificate"></span></span> #plum_pudding</td>
+			  <td>91</td>
+			  <td><button type="button" class="btn btn-primary btn-xs">&nbsp;<span class="glyphicon glyphicon-comment"></span>&nbsp;</button></td>
+			</tr>
+			<tr>
+			  <td><span class="label label-primary">F</span> #beefeater_gin</td>
+			  <td>89</td>
+			  <td><button type="button" class="btn btn-primary btn-xs">&nbsp;<span class="glyphicon glyphicon-comment"></span>&nbsp;</button></td>
+			</tr>
+		</tbody>
+	  </table>	
+  </div>

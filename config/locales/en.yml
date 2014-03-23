@@ -27,6 +27,13 @@ en:
   splash_lead: "EN Lead Placeholder"
   splash_sub: "EN Sub Placeholder"
   home: "Home"
+  friends_family: "Friends & Family"
+  learning: "Learning"
+  health_wellbeing: "Health & Well-being"
+  todays_progress: "Today's Progress"
+  most_active: "Most Active Priorities"
+  your_messages: "Messages"
+  enter_tag: "Enter Tag"
   unchanged_password: "Leave these fields blank if you don't want to change your password."
   current_password: "You must enter your current password to make changes."
   current_password_f: "Current Password"
@@ -38,6 +45,9 @@ en:
   logout: "Logout"
   edit: "Edit"
   update: "Update"
+  feed: "Feed"
+  notices: "Notices"
+  add: "Add"
   activerecord:
       models:
         user: "User"

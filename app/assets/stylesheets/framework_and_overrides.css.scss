@@ -90,3 +90,16 @@ section {
   @extend panel-body;
   padding-left: 15px;
 }
+
+.add-panel-body {
+  @extend .panel-body;
+  border-style: none;
+  padding-top: 0;
+}
+.add-panel {
+  @extend .panel;
+  border-style: none;
+}
+.menu-item-lg {
+  font-size: 1.1em;
+}

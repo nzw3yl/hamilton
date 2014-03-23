@@ -1,0 +1,62 @@
+<div class="nav-panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <span class="label label-primary">F</span> <%= t('friends_family') %>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+	    <%= render 'layouts/sample_prios' %>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          <span class="label label-info"><span class="glyphicon glyphicon-heart-empty"></span></span> Health & Well-being
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+	  <div class="panel-body">
+        <%= render 'layouts/sample_prios' %>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          <span class="label label-warning"><span class="glyphicon glyphicon-book"></span></span> Learning
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        <%= render 'layouts/sample_prios' %>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+          <span class="label label-success"><span class="glyphicon glyphicon-certificate"></span></span> Team Name 
+          <span class="glyphicon glyphicon-lock menu-item-lg pull-right"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+      <div class="panel-body">
+        <%= render 'layouts/sample_prios' %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="btn-group pull-right">
+  <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span></a></button>
+</div>

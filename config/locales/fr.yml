@@ -6,6 +6,13 @@ fr:
   splash_lead: "FR Lead Placeholder"
   splash_sub: "FR Sub Placeholder"
   home: "Page d'accueil"
+  friends_family: "Friends & Family"
+  learning: "Learning"
+  health_wellbeing: "Health & Well-being"
+  todays_progress: "Today's Progress"
+  most_active: "Most Active Priorities"
+  your_messages: "Messages"
+  enter_tag: "Enter Tag"
   forgot_password: "Mot de passe oublié ?"
   sending_password_reset: "Nous vous enverrons instructions sur la réinitialisation des mots de passe"
   reset_password: "Réinitialisation du mot de passe"
@@ -14,6 +21,9 @@ fr:
   logout: "Déconnexion"
   edit: "Modifier"
   update: "Mise à jour"
+  feed: "Feed"
+  notices: "Notices"
+  add: "Ajouter"
   activerecord:
       models:
         user: "Membre"

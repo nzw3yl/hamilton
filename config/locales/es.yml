@@ -7,6 +7,13 @@ es:
   splash_lead: "ES Lead Placeholder"
   splash_sub: "ES Sub Placeholder"
   home: "Inicio"
+  friends_family: "Friends & Family"
+  learning: "Learning"
+  health_wellbeing: "Health & Well-being"
+  todays_progress: "Today's Progress"
+  most_active: "Most Active Priorities"
+  your_messages: "Messages"
+  enter_tag: "Enter Tag"
   forgot_password: "¿Olvidaste tu contraseña?"
   sending_password_reset: "Le enviaremos las instrucciones para restablecer la contraseña"
   reset_password: "Restablecimiento de la contraseña"
@@ -15,6 +22,9 @@ es:
   logout: "Cerrar sesión"
   edit: "Editar"
   update: "Actualizar"
+  feed: "Feed"
+  notices: "Notices"
+  add: "Agregar"
   activerecord:
       models:
         user: "Usuario"

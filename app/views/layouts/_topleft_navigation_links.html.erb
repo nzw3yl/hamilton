@@ -1,3 +1,5 @@
 <% if user_signed_in? %>
-<li class="active"><a href="#">Link</a></li>
+<li class="active"><a href="#"><span class="glyphicon glyphicon-th-list"></span> <%= t('feed') %></a></li>
+<li class="active"><a href="#"><%= t('notices')%> <span class="badge badge-danger">42</span>
+</a></li>
 <% end %>
